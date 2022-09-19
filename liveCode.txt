@@ -1,0 +1,24 @@
+#include <iostream>
+
+
+int arrSize = 4;
+int array[4];
+
+
+int main()
+{
+  std::cout << "Enter 4 integers into array" << std::endl;
+  for(int x=0; x<arrSize; x++)
+  {
+    std::cin >> array[x];   
+  }
+  
+  
+  std::cout << array[0] << std::endl;
+  std::cout << array[1] << std::endl;
+  std::cout << array[2] << std::endl;
+  std::cout << array[3] << std::endl;
+  
+  return 0;
+  
+}
